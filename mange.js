@@ -1,0 +1,5 @@
+function displayManage(){
+    let html = `
+        
+    `
+}

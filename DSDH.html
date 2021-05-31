@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Quản lý đơn hàng</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Danh sách đơn hàng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Đã xác nhận</a>
+        </li>
+        
+      </ul>
+    </nav>
+    <!-- Body -->
+       <div class="container mt-3">
+          <h6> Tất cả đơn hàng: </h6>
+        <table class="table table-bordered" id="table_product" >
+             <thead>
+                 <th>Mã đơn hàng</th>
+                 <th>Ngày đặt</th>
+                 <th>Khách hàng</th>
+                 <th></th>
+                 <th>Giao hàng</th>
+                 <th>Thanh toán</th>
+                 <th>COD</th>
+                 <th>Tổng tiền</th>
+                 <th>Xem chi tiết</th>
+             </thead>
+             <tbody>
+                <tr>
+                   <td> 001</td>
+                   <td>29/05/2021</td>
+                   <td>Nguyễn Văn A</td>
+                   <td class="btn-danger">Chưa</td>
+                   <td>Đã thanh toán</td>
+                   <td>Không</td>
+                   <td>2.000.000VND</td>
+                   <td><a href="">Chi tiết</a></td>
+                </tr>
+                <tr>
+                    <td> 002</td>
+                    <td>29/05/2021</td>
+                    <td>Trần Văn B</td>
+                    <td class="btn-success">Đã giao</td>
+                    <td>Chưa thanh toán</td>
+                    <td>Không</td>
+                    <td>3.000.000 VND</td>
+                    <td><a href="">Chi tiết</a></td>
+                 </tr>
+                
+             </tbody>
+        </table>
+    </div>
+<script src="mange.js"></script>
+</body>
+</html>
